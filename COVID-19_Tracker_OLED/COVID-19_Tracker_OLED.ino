@@ -8,8 +8,8 @@
   SSD1306Wire  display(0x3c, D2, D1); //  D2 -> SDA and D1 -> SCL
   OLEDDisplayUi ui     ( &display );
 
-  const char* ssid = "demo";              //WIFI SSID Name                             
-  const char* password =  "12345678";        //WIFI Password
+  const char* ssid = "wifi";              //WIFI SSID Name                             
+  const char* password =  "iotproject";        //WIFI Password
   const char* host = "api.thingspeak.com";  //We read the data from this host                                   
   const int httpPortRead = 80;                                           
                                                   
